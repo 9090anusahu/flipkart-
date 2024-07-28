@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(127, 127, 247);
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+nav input{
+    width: 350px;
+    height: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
