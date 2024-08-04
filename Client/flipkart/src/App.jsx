@@ -41,16 +41,18 @@ import Headers from './Components/Headers'
 import { Route, Routes } from 'react-router-dom'
 import Signup from './Components/Signup.jsx';
 import Login from './Components/Login.jsx';
+import Addproduct from './Components/Addproduct.jsx';
 const App = () => {
 
   
   return (
     <div>
-      
      <Headers/>
+     {/* <Addproduct/> */}
      <Routes>
       <Route  path='/'  element={<Signup/>}/>
       <Route  path='/login'  element={<Login/>}/>
+      <Route  path='/add'  element={<Addproduct/>}/>
 
      </Routes>
     </div>
